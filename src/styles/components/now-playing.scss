@@ -21,7 +21,7 @@
   }
 
   &__cover {
-    max-width: 400px;
+    max-width: 150px;
   }
 
   &__image {
@@ -52,20 +52,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  @media only screen and (min-width: 767px) {
-    flex-flow: row nowrap;
-    padding: 10%;
-
-    &__cover,
-    &__details {
-      width: 50%;
-      max-width: 495px;
-    }
-
-    &__details {
-      text-align: left;
-    }
   }
 }
